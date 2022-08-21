@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Nunito";
+    src: url("./Nunito/Nunito-Regular.woff") format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("./Poppins/Poppins-Regular.woff") format("woff");
+    font-display: swap;
+}

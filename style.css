@@ -33,10 +33,12 @@ header {
     color: #000000;
 }
 .sign a:hover {
-    padding: 12px 17px;
     border-radius: 100px;
     background-color: #EF8D21;
     color: #FFFFFF;
+}
+.sign a {
+   padding: 12px 17px; 
 }
 
 /* .test {

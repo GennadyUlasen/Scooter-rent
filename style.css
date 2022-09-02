@@ -1,8 +1,14 @@
 @import "/fonts/fonts.css";
+@import "adaptive.css";
+html, body {
+    height: 100%; /* Высота */
+    margin: 0; /* Убираем отступы у веб-страницы */
+   }
 .wrapper {
     margin: 0 auto;
     max-width: 1400px;
-    min-height: 800px;
+    /* min-height: 800px; */
+    height: 100%;
     background-color: rgba(255, 252, 249, 1);
     position: relative;
     
@@ -56,16 +62,21 @@ header {
 section {
     display: flex;
     max-width: 1150px;
-    margin: 0 0 0 9%;
+    margin: 0 auto;
+    height: 100%;
 }
 .container {
-    max-width: 1285px;
-    margin: 0 auto;
+    height: 85%;
     position: relative;
+    /* max-width: 1285px;
+    margin: 0 auto;
+    position: relative; */
 }
 .container .cirсle {
     box-sizing: border-box;
     position: absolute;
+    left: 3%;
+    top: 8%;
     width: 236px;
     height: 236px;
     opacity: 0.1;
@@ -76,7 +87,8 @@ section {
     font-family: "Poppins";
     text-align: left;
     max-width: 640px;
-    padding-top: 5%;
+    padding-top: 10%;
+    padding-left: 35px;
 }
 .wrapper-container h2 {
     margin: 0 0;
@@ -139,12 +151,13 @@ section {
 .wrapper-picture .cirсle-two {
     box-sizing: border-box;
     position: absolute;
-    left: 31%;
-    top: -6%;
+    left: 25%;
+    top: 0;
     width: 104px;
     height: 104px;
     border: 8px solid rgba(239, 141, 33, 0.2);
     border-radius: 50%;
+    z-index: -1;
 }
 .wrapper-picture .start {
     margin: 0;
@@ -167,7 +180,7 @@ section {
     font-weight: 700;
 }
 .background-scooter {
-    margin: 50px;
+    /* margin: 50px; */
     width: 363px;
     height: 364px;
     position: absolute;
@@ -179,12 +192,12 @@ section {
     outline-offset: 19px;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     transform: rotate(48.11deg);
-    right: -6%;
+    right: 5%;
     top: 38%;
     z-index: -1;
 }
 .wrapper-picture picture {
-    position: absolute;
-    top: -4%;
-    left: 31%;
+    /* position: absolute; */
+    top: 0;
+    left: 25%;
 }
